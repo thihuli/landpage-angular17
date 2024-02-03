@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 
-type BtnVariant = "primary" | "sencondary"
+type BtnVariant = "primary" | "secondary"
 
 @Component({
   selector: 'btn-primary',
